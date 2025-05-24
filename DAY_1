@@ -1,0 +1,26 @@
+# to check if numpy is installed or  not 
+
+import numpy as np
+arr=np.array([1,2,3,4,5])
+print(arr)
+
+# to check the version of numpy 
+print(np.__version__)
+
+# to check the type of array
+print(type(arr))
+
+# create 0-D array with value 42
+arr1=np.array(42)
+print(arr1)
+
+# create 1-D array 
+arr2=np.array([1,2,3,4,5])
+print(arr2)
+
+# creat highest dimension array
+a=np.array([1,2,3,4,5],ndmin=4)
+print(a)
+
+# cheked how many dimension have
+print(a.ndim)
